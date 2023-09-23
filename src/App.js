@@ -5,7 +5,7 @@ import TextForm from './component/TextForm';
 import Alert from './component/Alert';
 import About from './component/About';
 // import DarkMode from '.src/component/darkmode/DarkMode';
-import {BrowserRouter as Router, Routes, Route,Link} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 
 function App() {
@@ -51,24 +51,20 @@ function App() {
     // }
   }
 }
-    {/* <Navbar title="A2Z React App" aboutText="About A2Z"/> */}
   return (
     <>
-      <Router>
         <Navbar title="./public/favicon.ico" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className='container my-3'>
           <Routes>
             {/* /users-->Component 1
             /user/home -->Component 2  */}
-            <Route exact path="/About" element={<About  mode={mode} toggleMode={toggleMode}/>}>
+            <Route  path="/About" element={<About  mode={mode} toggleMode={toggleMode}/>}>
             </Route>
-            <Route exact  path="/" element={<TextForm showAlert={showAlert} heading="Enter Text to Analyze Below" mode={mode} />}>
+            <Route   path="/" element={<TextForm showAlert={showAlert} heading="Enter Text to Analyze Below" mode={mode} />}>
             </Route>
           </Routes>
         </div>
-      </Router>
-      
     </>
   );
 }

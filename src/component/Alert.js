@@ -1,8 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+
 const Alert = (props) => {
-    const Capitalize= (word)=>{
-        
+    function Capitalize (word){
         const lower = word.toLowerCase();
         return lower.charAt(0).toUpperCase() + lower.slice(1);
     }
