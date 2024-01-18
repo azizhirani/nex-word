@@ -55,7 +55,7 @@ const handleOnchange = (event) => {
 const [text, setText] = useState("Enter text Here");
 
 return (
-  <div className='container' style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
+  <div className='container fs-5' style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
     <h2>{props.heading}</h2>
   
     <div className="mb-3">
