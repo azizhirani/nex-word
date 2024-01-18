@@ -29,30 +29,30 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#27282B';
       showAlert("Dark Mode has been Enabled","success")
-      document.title = "A2Z Word - Dark Mode";
+      document.title = "NEX Word - Dark Mode";
       setInterval(()=>{
-        document.title = "A2Z Word is Amazing "
+        document.title = "NEX Word is Amazing "
       },2000);
       setInterval(()=>{
-        document.title = "Install A2Z Word"
+        document.title = "Install NEX Word"
     },1500);
     }
   else{
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("Light Mode has been Enabled","success")
-      document.title = "A2Z Word - Light Mode";
+      document.title = "NEX Word - Light Mode";
       setInterval(()=>{
-        document.title = "A2Z Word is Amazing "
+        document.title = "NEX Word is Amazing "
       },2000);
       setInterval(()=>{
-        document.title = "Install A2Z Word"
+        document.title = "Install NEX Word"
     },1500);
     //   setInterval(()=>{
-    //     document.title = "A2Z Word is Amazing "
+    //     document.title = "Nex Word is Amazing "
     //   },2000);
     //   setInterval(()=>{
-    //     document.title = "Install A2Z Word"
+    //     document.title = "Install Nex Word"
     // },1500);
     // }
   }

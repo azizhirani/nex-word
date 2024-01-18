@@ -73,7 +73,7 @@ return (
       <h1> Your Text Summary: </h1>
       {/* <p> {text}</p> */}
 
-      <p className='my-2'>{text.split(" ").length} words and {text.length} characters</p>
+      <p className='my-2'>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
       <p className='my-2'>{0.008 * text.split(" ").length} Minutes to Read -  {text.length} characters</p>
       <h3>Preview</h3>
       <p>{text.length>0?text:"Enter text to preview it!!"}</p>
