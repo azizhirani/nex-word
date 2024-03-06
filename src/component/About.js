@@ -10,36 +10,36 @@ const About = (props) => {
                 <div className="accordion-item" >
                     <h2 className="accordion-header" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
                         <button className="accordion-button" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
+                        What We Do
                         </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample" >
                         <div className="accordion-body" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} > 
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>Nex-Word is a web-based tool designed to help you manipulate text in various ways. </strong>It provides a user-friendly interface for common text manipulation tasks, allowing you to transform your text quickly and easily.
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} >
                     <h2 className="accordion-header" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
                         <button className="accordion-button collapsed" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                        Our Mission
                         </button>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>We aim to empower users with a simple and accessible platform for text manipulation</strong> We believe everyone should have the ability to modify their text to suit their needs, regardless of technical expertise.
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
                     <h2 className="accordion-header" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
                         <button className="accordion-button collapsed"  style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  >
-                            Accordion Item #3 
+                        Future Plans
                         </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }} data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={{backgroundColor: props.mode==='dark'?'#27282B':'white',color: props.mode==='dark'?'white':'black' }}>
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>What's next for Nex-Word?</strong> We are constantly working on improving Nex-Word and adding new functionalities. We're excited to explore features like text-to-speech translation. Feel free to share your feedback and suggestions with us!
                         </div>
                     </div>
                 </div>

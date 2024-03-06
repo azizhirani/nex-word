@@ -6,6 +6,7 @@ import Alert from './component/Alert';
 import About from './component/About';
 // import DarkMode from '.src/component/darkmode/DarkMode';
 import { Routes, Route} from 'react-router-dom';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -59,9 +60,10 @@ function App() {
 }
   return (
     <>
-        <Navbar title="./public/favicon.ico" mode={mode} toggleMode={toggleMode} />
+    <div className=''><Navbar title="./public/favicon.ico" mode={mode} toggleMode={toggleMode} /></div>
+        
         <Alert alert={alert} />
-        <div className='container my-3'>
+        <div className='container-fluid my-3'>
           <Routes>
             {/* /users-->Component 1
             /user/home -->Component 2  */}
@@ -70,6 +72,10 @@ function App() {
             <Route   path="/" element={<TextForm showAlert={showAlert} heading="Enter Text to Analyze Below" mode={mode} />}>
             </Route>
           </Routes>
+          <div className='position-absolute top-100 start-50 translate-middle '>
+          <Footer/>
+          </div>
+         
         </div>
     </>
   );
